@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSY📚</title>
+    <link rel="stylesheet" href="booksy.css">
+</head>
+
+<body>
+    <h1 class="head">BOOKSY📚</h1>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h4>Robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos aut beatae, optio quod perferendis dicta
+                laudantium aliquam officia possimus doloribus, quaerat in enim et repellendus quae vero eligendi, iste
+                ab.</p>
+            <button onclick="del(event)">Delete</button>
+
+        </div>
+    </div>
+    <button class="add-button">+</button>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="BT-input">
+            <input type="text" placeholder="Book Author" id="BA-input">
+            <textarea placeholder="Short Discription" id="TA-input"></textarea>
+            <button  id="Add-book">Add</button><button id="Cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="booksy.js"></script>
+</body>
+
+</html>
